@@ -1,0 +1,32 @@
+.container{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.card{
+    margin: 20px;
+    padding: 15px;
+
+    border: 2px solid #cecee1;
+    border-radius: 5px;
+    
+}
+h2{
+    color: aqua;
+
+}
+
+.card span{
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    display: block;
+}
+.card p{
+    font-size: 26px;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+}

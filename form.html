@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-size: 28px;
+        gap: 10px;
+        margin-top: 50px;
+    }
+
+    input{
+        width: 50%;
+        height: 40px;
+        border-radius: 10px;
+    }
+    body{
+        color: white;
+
+    }
+    h1{
+        text-align: center;
+        margin-top: 30px;
+    }
+    #btn{
+    background-color: lightgreen;
+    padding: 5px;
+    font-size: 15px;
+   
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1A2044;
+    color: white;
+    border-radius: 0px 0px 25px 25px;
+    height: 65px;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.left{
+    font-size: 30px;
+}
+
+.lower{
+    position: relative;
+    font-size: 10px;
+    top: 2px;
+}
+
+</style>
+<body>
+    <nav class="navbar">
+        <div class="left">
+            <span>Eventracker</span>
+            <span class="lower">from NHCE</span>
+        </div>
+        <div>
+        <a href="logout.php">LOGOUT</a>
+        </div>
+    </nav>
+
+    <h1>Enter the details of the event</h1>
+
+<div class="form">
+    <form action="">
+        <label for="">enter the name of the event</label>
+        <input type="text" name="" id="name" placeholder="Event name">
+
+        <label for="">Event hosted by</label>
+        <input type="text" name="" id="cname" placeholder="Hosted BY">
+
+        <label for="">organiser name</label>
+        <input type="text" id="oname" placeholder="Organized by">
+
+        <label for="">Date</label>
+        <input type="date" name="" id="date" placeholder="Date">
+
+        <label for="">description</label>
+        <input type="text" id="description" placeholder="About the event">
+
+        <input type="button" id="btn" value="Create event">
+    </form>
+</div>
+    
+</body>
+</html>

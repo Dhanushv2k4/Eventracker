@@ -1,0 +1,32 @@
+.container{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #cecee1;
+    border-radius: 5px;
+    width: 280px;
+}
+.card img{
+    width: 270px;
+    height: 250px;
+    border-radius: 15px;
+    /* box-shadow: 8px 9px #72ccf6; */
+    margin-bottom: 10px;
+}
+.card span{
+    font-size: 19px;
+    font-weight: lighter;
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+.card p{
+    font-size: 15px;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+}
